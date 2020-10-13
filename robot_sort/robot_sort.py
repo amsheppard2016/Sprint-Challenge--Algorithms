@@ -95,6 +95,41 @@ class SortingRobot:
     def sort(self):
         """
         Sort the robot's list.
+        -------------------------------------------------------------------
+        def selection_sort(arr):
+            for i in range(0, len(arr)-1):
+                smallest_index = i
+
+                for e in range (i + 1, len(arr)):
+                    if arr[e] < arr[smallest_index]:
+                        smallest_index = e
+            arr[i], arr[smallest_index] = arr[smallest_index],arr[i]
+        
+        # TO-DO: swap
+        # Your code here
+
+    return arr
+        ---------------------------------------------------------------------
+        if can move right == False 
+            return
+        else
+            if can move right == True
+                swap item #has first item
+                move right
+                compare item
+            if compare item == 1
+                swapitem
+            else:
+                while can move left = True:
+                    move left
+                    compare item
+                    if compare item == 1
+                        swap item
+                    else:
+                        start at top
+                    
+            
+
         """
         # Fill this out
         pass
